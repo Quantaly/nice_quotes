@@ -1,5 +1,5 @@
-const leftDoubleQuoteRegex = /(^|\s)"/;
-const leftSingleQuoteRegex = /(^|\s)'/;
+const leftDoubleQuoteRegex = /(^|[^\w\d])"/;
+const leftSingleQuoteRegex = /(^|[^\w\d])'/;
 
 /**
  * Replaces quotes and ellipses in the text with their nice variants.

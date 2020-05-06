@@ -1,4 +1,4 @@
-import niceQuotes from "./nice_quotes.js";
+import niceQuotes from "./nice-quotes.js";
 
 const textarea = document.querySelector("textarea");
 
